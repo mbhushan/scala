@@ -41,7 +41,7 @@ class NonEmpty(data: Int, left: IntSet, right: IntSet) extends IntSet {
   override def toString = "{" + left + data + right + "}"
   
   def union(other: IntSet): IntSet = {
-    
+     ((left union right) union other) incl data 
   }
 }
 
