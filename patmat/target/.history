@@ -2,3 +2,9 @@ exit
 submit manibhushan.cs@gmail.com ysMBGnLhs32hlzX7
 submit manibhushan.cs@gmail.com VBZChJLnhac8AMiq
 exit()
+val x = List()
+val x = List(1)
+List(1,2,3)
+compile
+1+1
+repl
