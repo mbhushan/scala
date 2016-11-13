@@ -8,16 +8,6 @@ class Welcome {
       println("Hello " + name + "!")
     }
   }
-  
-  def f(num:Int,arr:List[Int]):List[Int] = {
-    var x:Int = 0
-    arr.foreach {
-        for (x <- 1 to num) {
-            println
-        }
-    }
-}
-
 }
 
 
